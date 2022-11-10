@@ -1,11 +1,11 @@
 {
-  "description": "left_option ['; to åäö",
+  "description": "right_option ['; to åäö",
   "manipulators": [
     {
     "type": "basic",
     "from": {
       "key_code": "open_bracket",
-      "modifiers": { "mandatory": ["left_option"] }
+      "modifiers": { "mandatory": ["right_option"] }
     },
     "to": [{ "key_code": "a", "modifiers": ["left_option"] }]
   },
@@ -14,7 +14,7 @@
     "from": {
       "key_code": "open_bracket",
       "modifiers": {
-	"mandatory": ["left_option", "left_shift"]
+	"mandatory": ["right_option", "shift"]
       }
     },
     "to": [{ "key_code": "a", "modifiers": ["left_option", "left_shift"] }]
@@ -25,7 +25,7 @@
     "from": {
       "key_code": "quote",
       "modifiers": {
-	"mandatory": ["left_option"]
+	"mandatory": ["right_option"]
       }
     },
     "to": [
@@ -38,7 +38,7 @@
     "from": {
       "key_code": "quote",
       "modifiers": {
-	"mandatory": ["left_option", "left_shift"]
+	"mandatory": ["right_option", "shift"]
       }
     },
     "to": [
@@ -52,7 +52,7 @@
     "from": {
       "key_code": "semicolon",
       "modifiers": {
-	"mandatory": ["left_option"]
+	"mandatory": ["right_option"]
       }
     },
     "to": [
@@ -66,7 +66,7 @@
     "from": {
       "key_code": "semicolon",
       "modifiers": {
-	"mandatory": ["left_option", "left_shift"]
+	"mandatory": ["right_option", "shift"]
       }
     },
     "to": [
