@@ -7,7 +7,7 @@
       "key_code": "open_bracket",
       "modifiers": { "mandatory": ["right_option"] }
     },
-    "to": [{ "key_code": "a", "modifiers": ["left_option"] }]
+    "to": [{ "key_code": "a", "modifiers": ["right_option"] }]
   },
     {
     "type": "basic",
@@ -17,7 +17,7 @@
 	"mandatory": ["right_option", "shift"]
       }
     },
-    "to": [{ "key_code": "a", "modifiers": ["left_option", "left_shift"] }]
+    "to": [{ "key_code": "a", "modifiers": ["right_option", "shift"] }]
   },
 
     {
@@ -29,7 +29,7 @@
       }
     },
     "to": [
-      { "key_code": "u", "modifiers": ["left_option"] },
+      { "key_code": "u", "modifiers": ["right_option"] },
       { "key_code": "a" }
     ]
   },
@@ -42,8 +42,8 @@
       }
     },
     "to": [
-      { "key_code": "u", "modifiers": ["left_option"] },
-      { "key_code": "a", "modifiers": ["left_shift"] }
+      { "key_code": "u", "modifiers": ["right_option"] },
+      { "key_code": "a", "modifiers": ["shift"] }
     ]
   },
 
@@ -56,7 +56,7 @@
       }
     },
     "to": [
-      { "key_code": "u", "modifiers": ["left_option"] },
+      { "key_code": "u", "modifiers": ["right_option"] },
       { "key_code": "o" }
     ]
   },
@@ -70,8 +70,8 @@
       }
     },
     "to": [
-      { "key_code": "u", "modifiers": ["left_option"] },
-      { "key_code": "o", "modifiers": ["left_shift"] }
+      { "key_code": "u", "modifiers": ["right_option"] },
+      { "key_code": "o", "modifiers": ["shift"] }
     ]
   }
   ]
